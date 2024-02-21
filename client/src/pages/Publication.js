@@ -1,17 +1,14 @@
 function Publication() {
   return (
     <>
-      <div class="bg-white py-24 sm:py-32">
-        <div class="mx-auto max-w-7xl px-6 lg:px-8">
-          <div class="mx-auto max-w-2xl lg:mx-0">
-            <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              From the blog
-            </h2>
-            <p class="mt-2 text-lg leading-8 text-gray-600">
-              Learn how to grow your business with our expert advice.
-            </p>
-          </div>
-          <div class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+      <div class="bg-white py-12">
+        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl text-center">
+          Publications
+        </h2>
+        <div class="w-full border-t mt-12 pt-6 lg:px-0 items-center"></div>
+        <div class="mx-auto px-6 lg:px-8">
+          <div class="lg:mx-0 text-center w-full"></div>
+          <div class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 sm:mt-16 lg:max-w-none lg:grid-cols-3">
             <article class="flex max-w-xl flex-col items-start justify-between">
               <div class="flex items-center gap-x-4 text-xs">
                 <time datetime="2020-03-16" class="text-gray-500">
@@ -147,6 +144,27 @@ function Publication() {
           </div>
         </div>
       </div>
+
+      {/* Cal Poly logo */}
+      <div class="border-t mt-12 pt-12 px-4 lg:px-0 items-center">
+        <img
+          src="https://i.ibb.co/kgHm5xJ/logo-for-signature.png"
+          class="mx-auto"
+        />
+      </div>
+
+      {/* <!-- footer --> */}
+      <footer class="border-t mt-12 pt-6 px-4 lg:px-0 bg-greenAccent text-gray-300">
+        <div class="flex flex-wrap">
+          <div class="w-full lg:w-2/5"></div>
+
+          <div class="w-full mt-6 lg:mt-0 md:w-1/2 lg:w-1/5 text-center pb-6">
+            Meaghan Sharrard 2024
+          </div>
+
+          <div class="w-full mt-6 lg:mt-0 md:w-1/2 lg:w-1/5"></div>
+        </div>
+      </footer>
     </>
   );
 }

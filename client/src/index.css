@@ -8,3 +8,12 @@
   --link: #61dafb;
   --text: hsla(0, 0%, 100%, 0.88);
 }
+
+body {
+  background-color: "background";
+}
+
+.top-shadow {
+  box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 4px 6px -1px rgba(0, 0, 0, 0.1); /* Adjust the shadow values for both top and bottom shadows */
+}

@@ -1,24 +1,20 @@
 function Team() {
   return (
     <>
-      <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
-        <div className="text-center pb-12">
-          <h2 className="text-base font-bold text-indigo-600">
-            We have the best equipment in the market
-          </h2>
-          <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl font-heading text-gray-900">
-            Check our awesome team members
-          </h1>
-        </div>
+      <h1 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl text-center pt-10">
+        Our Team
+      </h1>
+      <div class="w-full border-t mt-12 pt-6 lg:px-0 items-center"></div>
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-1 gap-6">
           {teamMembers.map((member, index) => (
             <div
               key={index}
-              className="w-full bg-white rounded-lg shadow-lg overflow-hidden flex flex-col sm:flex-row items-center"
+              className="top-shadow w-full bg-white rounded-lg shadow-lg overflow-hidden flex flex-col sm:flex-row items-center"
             >
               <div>
                 <img
-                  className="rounded-lg object-center object-cover w-full h-auto md:w-96 md:h-64"
+                  className="rounded-lg object-center object-cover w-full h-auto md:w-100 md:h-80"
                   src={member.image}
                   alt={member.name}
                 />
@@ -38,6 +34,27 @@ function Team() {
           ))}
         </div>
       </section>
+
+      {/* Cal Poly logo */}
+      <div class="border-t mt-12 pt-12 px-4 lg:px-0 items-center">
+        <img
+          src="https://i.ibb.co/kgHm5xJ/logo-for-signature.png"
+          class="mx-auto"
+        />
+      </div>
+
+      {/* <!-- footer --> */}
+      <footer class="border-t mt-12 pt-6 px-4 lg:px-0 bg-greenAccent text-gray-300">
+        <div class="flex flex-wrap">
+          <div class="w-full lg:w-2/5"></div>
+
+          <div class="w-full mt-6 lg:mt-0 md:w-1/2 lg:w-1/5 text-center pb-6">
+            Meaghan Sharrard 2024
+          </div>
+
+          <div class="w-full mt-6 lg:mt-0 md:w-1/2 lg:w-1/5"></div>
+        </div>
+      </footer>
     </>
   );
 }
