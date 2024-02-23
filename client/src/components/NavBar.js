@@ -29,7 +29,7 @@ function NavBar() {
                       currentPage === "/"
                         ? "bg-darkGreenAccent text-white"
                         : "text-gray-300 hover:bg-darkGreenAccent hover:text-white"
-                    } rounded-md px-3 py-2 text-sm font-medium`}
+                    } rounded-md px-3 py-2 text-m font-medium`}
                     onClick={() => setCurrentPage("/")}
                   >
                     HOME
@@ -40,7 +40,7 @@ function NavBar() {
                       currentPage === "/publication"
                         ? "bg-darkGreenAccent text-white"
                         : "text-gray-300 hover:bg-darkGreenAccent hover:text-white"
-                    } rounded-md px-3 py-2 text-sm font-medium`}
+                    } rounded-md px-3 py-2 text-m font-medium`}
                     onClick={() => setCurrentPage("/publication")}
                   >
                     PUBLICATIONS
@@ -51,7 +51,7 @@ function NavBar() {
                       currentPage === "/team"
                         ? "bg-darkGreenAccent text-white"
                         : "text-gray-300 hover:bg-darkGreenAccent hover:text-white"
-                    } rounded-md px-3 py-2 text-sm font-medium`}
+                    } rounded-md px-3 py-2 text-m font-medium`}
                     onClick={() => setCurrentPage("/team")}
                   >
                     TEAM
@@ -62,7 +62,7 @@ function NavBar() {
                       currentPage === "/research"
                         ? "bg-darkGreenAccent text-white"
                         : "text-gray-300 hover:bg-darkGreenAccent hover:text-white"
-                    } rounded-md px-3 py-2 text-sm font-medium`}
+                    } rounded-md px-3 py-2 text-m font-medium`}
                     onClick={() => setCurrentPage("/research")}
                   >
                     RESEARCH
@@ -71,17 +71,8 @@ function NavBar() {
               </div>
             </div>
             <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-              <button
-                type="button"
-                className="relative rounded-full bg-greenAccent p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
-              >
-                <span className="absolute -inset-1.5"></span>
-              </button>
-
               <div className="relative ml-3">
-                <div>
-                  <span className="bg-black absolute -inset-1.5"></span>
-                </div>
+                <div></div>
               </div>
             </div>
           </div>

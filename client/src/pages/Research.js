@@ -1,7 +1,7 @@
 function Research() {
   return (
     <>
-      <div class="bg-white">
+      <div class="bg-white fade-in">
         <div className="text-center">
           <h1 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl pt-10">
             Research

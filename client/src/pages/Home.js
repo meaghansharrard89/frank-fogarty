@@ -1,17 +1,20 @@
 function Home() {
   return (
     <>
-      <main class="mt-12">
+      <main class="mt-12 fade-in">
         {/* <!-- featured section --> */}
         <div class="flex flex-wrap md:flex-no-wrap space-x-0 md:space-x-6 mb-16">
           {/* <!-- main post --> */}
-          <div class="mb-4 lg:mb-0  p-4 lg:p-0 w-full md:w-4/7 relative rounded block">
-            <img
-              src="https://i.ibb.co/N3b7f4q/trails-are-very-easy.jpg"
-              class="rounded-md object-cover w-full h-64"
-            />
+          <div class="mb-4 lg:mb-0 p-4 lg:p-0 w-full md:w-4/7 relative rounded block">
+            <div class="image-container">
+              <img
+                src="https://i.ibb.co/r4wJKxG/redwoods.jpg"
+                class="rounded-md"
+                alt="Redwoods"
+              />
+            </div>
             <h1 class="py-12 text-gray-800 text-6xl font-bold mt-2 mb-2 leading-tight text-center">
-              Frank Fogarty's Lab
+              Applied Avian Ecology Lab
             </h1>
             <div class="border-t border-gray-200"></div>
 
@@ -27,7 +30,7 @@ function Home() {
               </div>
               {/* Right grid item for image */}
               <div className="text-center py-8 sm:py-6 px-6">
-                <img src="https://i.ibb.co/N3b7f4q/trails-are-very-easy.jpg" />
+                <img src="https://i.ibb.co/Qdx6npX/logo.png" />
               </div>
             </div>
 

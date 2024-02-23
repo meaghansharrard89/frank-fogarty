@@ -1,7 +1,7 @@
 function Publication() {
   return (
     <>
-      <div class="bg-white py-12">
+      <div class="bg-white py-12 fade-in">
         <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl text-center">
           Publications
         </h2>
