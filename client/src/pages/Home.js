@@ -1,46 +1,52 @@
 function Home() {
   return (
     <>
-      <main class="mt-12 fade-in">
+      <main class="mt-12 fade-in flex justify-center">
         {/* <!-- featured section --> */}
-        <div class="flex flex-wrap md:flex-no-wrap space-x-0 md:space-x-6 mb-16">
-          {/* <!-- main post --> */}
-          <div class="mb-4 lg:mb-0 p-4 lg:p-0 w-full md:w-4/7 relative rounded block">
-            <div class="image-container">
-              <img
-                src="https://i.ibb.co/r4wJKxG/redwoods.jpg"
-                class="rounded-md"
-                alt="Redwoods"
-              />
-            </div>
-            <h1 class="py-12 text-gray-800 text-6xl font-bold mt-2 mb-2 leading-tight text-center">
-              Applied Avian Ecology Lab
-            </h1>
-            <div class="border-t border-gray-200"></div>
+        <div class="mb-4 lg:mb-0 p-4 lg:p-0 md:w-4/5 relative rounded block">
+          <div class="image-container">
+            <img
+              src="https://i.ibb.co/r4wJKxG/redwoods.jpg"
+              class="rounded-md"
+              alt="Redwoods"
+            />
+          </div>
+          <h1 class="py-12 text-gray-800 text-6xl font-bold mt-2 mb-2 leading-tight text-center">
+            Applied Avian Ecology Lab
+          </h1>
+          <div class="border-t border-gray-200"></div>
 
+          <div className="pt-10 flex">
             <div className="pt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6">
               {/* Left grid item for text */}
-              <div class="pl-12">
+              <div class="pl-12 justify-center">
                 <h2 className="text-gray-800 text-4xl font-bold mt-2 mb-2 leading-tight">
-                  This is a tag line about the lab.
+                  Welcome to Feathered Insights: Where Science Takes Flight!
                 </h2>
+                <br />
                 <p className="text-gray-800 text-3xl mt-2 mb-2 leading-tight">
-                  Info about the lab.
+                  Nestled in the heart of biodiversity research, our applied
+                  avian ecology lab is a haven for bird enthusiasts and
+                  conservationists alike. With cutting-edge technology and a
+                  passion for preserving avian habitats, we soar to new heights
+                  in understanding and protecting our feathered friends. Join us
+                  as we spread our wings and dive deep into the fascinating
+                  world of avian ecology!
                 </p>
               </div>
               {/* Right grid item for image */}
-              <div className="text-center py-8 sm:py-6 px-6">
+              <div className="md:pl-80 py-8 sm:py-6 px-6 items-center">
                 <img src="https://i.ibb.co/Qdx6npX/logo.png" />
               </div>
             </div>
+          </div>
 
-            {/* Cal Poly logo */}
-            <div class="border-t mt-12 pt-12 px-4 lg:px-0 items-center">
-              <img
-                src="https://i.ibb.co/kgHm5xJ/logo-for-signature.png"
-                class="mx-auto"
-              />
-            </div>
+          {/* Cal Poly logo */}
+          <div class="border-t mt-12 pt-12 px-4 lg:px-0 items-center">
+            <img
+              src="https://i.ibb.co/kgHm5xJ/logo-for-signature.png"
+              class="mx-auto"
+            />
           </div>
         </div>
       </main>
