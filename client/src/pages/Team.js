@@ -15,19 +15,19 @@ function Team() {
               >
                 <div>
                   <img
-                    className="rounded-lg object-center object-cover w-full h-auto md:w-100 md:h-80"
+                    className="rounded-lg object-center object-cover w-120 h-80"
                     src={member.image}
                     alt={member.name}
                   />
                 </div>
-                <div className="text-center py-8 sm:py-6 px-6">
-                  <p className="text-xl text-gray-700 font-bold mb-2">
+                <div className="py-8 sm:py-6 px-6">
+                  <p className="text-center text-2xl text-black font-bold mb-2">
                     {member.name}
                   </p>
-                  <p className="text-base text-gray-400 font-normal">
+                  <p className="text-center text-xl text-base text-black font-style: italic mb-2">
                     {member.job}
                   </p>
-                  <p className="text-base text-gray-400 font-normal">
+                  <p className="text-base text-lg text-black font-normal">
                     {member.bio}
                   </p>
                 </div>

@@ -1,22 +1,21 @@
 function Home() {
   return (
     <>
-      <main class="mt-12 fade-in flex justify-center">
-        {/* <!-- featured section --> */}
-        <div class="mb-4 lg:mb-0 p-4 lg:p-0 md:w-4/5 relative rounded block">
-          <div class="image-container">
-            <img
-              src="https://i.ibb.co/r4wJKxG/redwoods.jpg"
-              class="rounded-md"
-              alt="Redwoods"
-            />
-          </div>
-          <h1 class="py-12 text-gray-800 text-6xl font-bold mt-2 mb-2 leading-tight text-center">
-            Applied Avian Ecology Lab
-          </h1>
-          <div class="border-t border-gray-200"></div>
+      <div class="image-container">
+        <img
+          src="https://i.ibb.co/r4wJKxG/redwoods.jpg"
+          class="rounded-md pt-8"
+          alt="Redwoods"
+        />
+      </div>
+      <h1 class="py-12 text-gray-800 text-6xl font-bold mb-2 leading-tight text-center">
+        Applied Avian Ecology Lab
+      </h1>
 
-          <div className="pt-10 flex">
+      <div class="w-full border-t border-gray-200"></div>
+      <main class="mt-12 fade-in flex justify-center">
+        <div class="mb-4 lg:mb-0 p-4 lg:p-0 md:w-4/5 relative rounded block">
+          <div className="flex">
             <div className="pt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6">
               {/* Left grid item for text */}
               <div class="pl-12 justify-center">
@@ -40,16 +39,16 @@ function Home() {
               </div>
             </div>
           </div>
-
-          {/* Cal Poly logo */}
-          <div class="border-t mt-12 pt-12 px-4 lg:px-0 items-center">
-            <img
-              src="https://i.ibb.co/kgHm5xJ/logo-for-signature.png"
-              class="mx-auto"
-            />
-          </div>
         </div>
       </main>
+
+      {/* Cal Poly logo */}
+      <div class="border-t mt-12 pt-12 px-4 lg:px-0 items-center">
+        <img
+          src="https://i.ibb.co/kgHm5xJ/logo-for-signature.png"
+          class="mx-auto"
+        />
+      </div>
 
       {/* <!-- footer --> */}
       <footer class="border-t mt-12 pt-6 px-4 lg:px-0 bg-greenAccent text-gray-300">
