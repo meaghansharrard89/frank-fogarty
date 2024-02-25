@@ -8,7 +8,7 @@ function Home() {
           alt="Redwoods"
         />
       </div>
-      <h1 class="py-12 text-gray-800 text-6xl font-bold mb-2 leading-tight text-center">
+      <h1 class="py-12 text-gray-800 text-6xl font-bold mb-2 leading-tight text-center mx-4 sm:mx-auto">
         Applied Avian Ecology Lab
       </h1>
 
