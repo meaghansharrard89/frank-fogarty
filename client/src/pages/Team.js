@@ -1,40 +1,33 @@
 function Team() {
   return (
     <>
-      <div class="fade-in">
-        <h1 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl text-center pt-10">
+      <div className="fade-in">
+        <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl text-center pt-10">
           Our Team
         </h1>
-        <div class="w-full border-t mt-12 pt-6 lg:px-0 items-center"></div>
-        <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-6">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-1 gap-6">
-            {teamMembers.map((member, index) => (
-              <div
-                key={index}
-                className="top-shadow w-full bg-white rounded-lg shadow-lg overflow-hidden flex flex-col sm:flex-row items-center"
-              >
-                <div>
-                  <img
-                    className="rounded-lg object-center object-cover w-120 h-80"
-                    src={member.image}
-                    alt={member.name}
-                  />
-                </div>
-                <div className="py-8 sm:py-6 px-6">
-                  <p className="text-center text-2xl text-black font-bold mb-2">
-                    {member.name}
-                  </p>
-                  <p className="text-center text-xl text-base text-black font-style: italic mb-2">
-                    {member.job}
-                  </p>
-                  <p className="text-base text-lg text-black font-normal">
-                    {member.bio}
-                  </p>
-                </div>
-              </div>
-            ))}
+        <div className="w-full border-t mt-12 pt-6 items-center"></div>
+        {teamMembers.map((member, index) => (
+          <div key={index} className="">
+            <div className="">
+              <img
+                className="rounded-lg w-100 h-80"
+                src={member.image}
+                alt={member.name}
+              />
+            </div>
+            <div className="">
+              <p className="text-2xl text-black font-bold mb-2">
+                {member.name}
+              </p>
+              <p className="text-xl text-base text-black italic mb-2">
+                {member.job}
+              </p>
+              <p className="text-base text-lg text-black font-normal">
+                {member.bio}
+              </p>
+            </div>
           </div>
-        </section>
+        ))}
 
         {/* Cal Poly logo */}
         <div class="border-t mt-12 pt-12 px-4 lg:px-0 items-center">
@@ -63,25 +56,52 @@ function Team() {
 
 const teamMembers = [
   {
-    name: "Dany Bailey",
-    job: "Software Engineer",
-    bio: "Jessica Smith is a passionate software engineer with over a decade of experience in the tech industry. With a Bachelor's degree in Computer Science from Stanford University, she embarked on her journey to revolutionize the digital world. Jessica specializes in full-stack web development, leveraging her expertise in languages such as JavaScript, Python, and Java.",
-    image:
-      "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+    name: "Frank Fogarty",
+    job: "Assistant Professor",
+    bio: "In my lab we study how potential disturbances, including wildfire, climate change, habitat fragmentation, timber harvest, and cattle grazing, interact with birds and their communities. I am also interested in methodologies for evaluating occupancy and abundance, especially as it relates to the kinds of messy, realistic data that are used by wildlife professionals. I am deeply committed to my work as a teacher, and leveraging my position to help the field of wildlife biology become more inclusive and equitable.",
+    image: "https://i.ibb.co/2SPHqsT/frankedit.jpg",
   },
   {
-    name: "Lucy Carter",
-    job: "Graphic Designer",
-    bio: "Lucy Carter is a creative graphic designer with a passion for crafting visually stunning designs. With a Bachelor's degree in Graphic Design from Parsons School of Design, she brings a unique perspective to every project she tackles. Lucy's expertise lies in branding, typography, and user interface design.",
-    image:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+    name: "Brittany Welch",
+    job: "M.S. student",
+    bio: "I'm studying Lewis's woodpeckers in the Eastern Cascades of Oregon to understand how their abundance is influenced by habitat associations and landscape connectivity in burned and unburned forests.",
+    image: "https://i.ibb.co/K7cs4XS/brittanyedit.jpg",
   },
   {
-    name: "Jade Bradley",
-    job: "Dev Ops",
-    bio: "Jade Bradley is a seasoned DevOps engineer with a knack for streamlining development processes and ensuring smooth deployments. With extensive experience in cloud computing platforms such as AWS and Azure, Jade excels at optimizing infrastructure and automating workflows to enhance efficiency and reliability.",
-    image:
-      "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1171&q=80",
+    name: "Alon Averbuj",
+    job: "M.S. student",
+    bio: "Hi, I'm Alon. I grew up amongst the chaparral and beaches near Solana Beach, San Diego where I fell in love with ecology and GIS! I am studying the habitat suitability of the Humboldt Coast for common ravens, and their interactions with the threatened western snowy plovers.",
+    image: "https://i.ibb.co/QnyQKng/alonedit.jpg",
+  },
+  {
+    name: "Cameron Piper",
+    job: "M.S. student",
+    bio: "Hiya! My name is Cameron! I grew up in Denver, Colorado, and completed my bachelor's in Conservation Biology from SUNY College of Environmental Science & Forestry. Since graduating, I have been lucky to work as a field scientist and environmental educator in some of the most beautiful places around the world like Mongolia, Yellowstone, the Northern Mariana Islands, the Sierra Nevada, and the White Mountains. I have worked with many different taxa, but birds stole my heart after my first field job studying red-headed woodpeckers. I am very excited to return to the wild world of woodpeckers with Drs. Frank Fogarty and Ho Yi Wan studying Lewis’s Woodpecker migration and behavioral ecology in central Oregon.",
+    image: "https://i.ibb.co/BnLs2WK/cameronedit.jpg",
+  },
+  {
+    name: "Rachel Higuera",
+    job: "Honors undergraduate student",
+    bio: "I am a passionate birder investigating the influence of macroinvertebrate communities on waterfowl richness in the Arcata Marsh and Wildlife Sanctuary. I am very interested in avian behavior, migration, and trophic cascades.",
+    image: "https://i.ibb.co/0y3cG9T/racheledit.jpg",
+  },
+  {
+    name: "Kiana Elliott",
+    job: "Honors undergraduate student",
+    bio: "I'm an undergrad student majoring in wildlife management and conservation and minoring in environmental ethics. Currently, I'm preparing to work on my senior project, then I'll continue my education in grad school. I fell in love with birds when I took an Ornithology course and went birding for the first time. Working my first field technician job in Oregon solidified that I want to further study our feathered friends.",
+    image: "https://i.ibb.co/ftPLDPD/kianaedit.jpg",
+  },
+  {
+    name: "Marina Osechinskaya",
+    job: "Lab alumni",
+    bio: "I graduated in December of 2023 with a B.S. degree in Wildlife Management and Conservation. For my honors thesis project I analyzed the predation rates of western snowy plover nests in Recovery Unit 2 (Del Norte, Humboldt, and Mendocino counties) by mesopredators such as skunks and coyotes. I also spent a considerable amount of time working on a Butterfly Conservation Program through Sequoia Park Zoo with endangered local butterfly species. I enjoy many outdoor activities such as birding, biking, hiking, and camping.",
+    image: "https://i.ibb.co/58XhcsK/marinaedit.png",
+  },
+  {
+    name: "Jessica Angulo",
+    job: "Lab alumni",
+    bio: "I was able to work on my REU/Senior Thesis project with the Avian Ecology lab. My project looked at understanding microclimate factors influencing changes in bird biomass and species richness during the breeding season in the HJ Andrews Experimental forest. The degree to which microclimate influences bird biomass and species richness remains largely unexplored which piqued my interest in this project. I was able to gain, feedback, advice, and valuable insights via Frank and grad students on my project. I was also able to learn more about what it takes to do a scientific project by listening to lab discussions about models, presentations, and articles.",
+    image: "https://i.ibb.co/PjX1n6q/jessicaedit.png",
   },
 ];
 
