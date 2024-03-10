@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/frank-fogarty/client/static/css/main.45842fcf.css",
+    "main.js": "/frank-fogarty/client/static/js/main.52b5201d.js",
+    "index.html": "/frank-fogarty/client/index.html",
+    "main.45842fcf.css.map": "/frank-fogarty/client/static/css/main.45842fcf.css.map",
+    "main.52b5201d.js.map": "/frank-fogarty/client/static/js/main.52b5201d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45842fcf.css",
+    "static/js/main.52b5201d.js"
+  ]
+}
