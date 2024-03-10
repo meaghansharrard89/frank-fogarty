@@ -4,14 +4,14 @@ import Home from "../pages/Home";
 import Publication from "../pages/Publication";
 import Team from "../pages/Team";
 import Research from "../pages/Research";
-import NavBar from "../components/NavBar";
+import NavBar from "./NavBar";
 
 function App() {
   return (
     <Router>
       <NavBar />
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/frank-fogarty">
           <Home />
         </Route>
         <Route exact path="/publication">

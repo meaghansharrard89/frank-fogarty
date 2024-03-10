@@ -24,7 +24,7 @@ function NavBar() {
                 <div className="flex space-x-4">
                   <NavLink
                     exact
-                    to="/"
+                    to="/frank-fogarty"
                     className={`${
                       currentPage === "/"
                         ? "bg-darkGreenAccent text-white"
@@ -79,10 +79,10 @@ function NavBar() {
         </div>
 
         <div className="sm:hidden" id="mobile-menu">
-          <div className="space-y-1 px-2 pb-3 pt-2">
+          <div className="space-y-1 pb-3 text-center">
             <NavLink
               exact
-              to="/"
+              to="/frank-fogarty"
               className={`${
                 currentPage === "/"
                   ? "bg-darkGreenAccent text-white"
