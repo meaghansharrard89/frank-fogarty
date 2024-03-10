@@ -3,31 +3,72 @@ function Team() {
     <>
       <div className="fade-in">
         <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl text-center pt-10">
-          Our Team
+          Current Lab Members
         </h1>
-        <div className="w-full border-t mt-12 pt-6 items-center"></div>
-        {teamMembers.map((member, index) => (
-          <div key={index} className="">
-            <div className="">
-              <img
-                className="rounded-lg w-100 h-80"
-                src={member.image}
-                alt={member.name}
-              />
-            </div>
-            <div className="">
-              <p className="text-2xl text-black font-bold mb-2">
-                {member.name}
-              </p>
-              <p className="text-xl text-base text-black italic mb-2">
-                {member.job}
-              </p>
-              <p className="text-base text-lg text-black font-normal">
-                {member.bio}
-              </p>
-            </div>
+        <div className="w-full border-t mt-10 pt-6 items-center"></div>
+        <div className="container mx-auto px-4 lg:px-4">
+          <div className="flex justify-center flex-wrap">
+            {teamMembers.map((member, index) => (
+              <div
+                key={index}
+                className="pb-16 flex flex-col items-center pt-4 w-full mx-auto md:flex-row md:items-start"
+              >
+                <div className="w-full md:w-1/4">
+                  <img
+                    className="rounded-lg w-full h-auto shadow-md"
+                    src={member.image}
+                    alt={member.name}
+                  />
+                </div>
+                <div className="w-full md:w-3/4 px-4 pt-2">
+                  <p className="text-2xl md:text-4xl text-black font-bold mb-2">
+                    {member.name}
+                  </p>
+                  <p className="text-lg md:text-3xl text-black italic mb-2">
+                    {member.job}
+                  </p>
+                  <p className="text-base md:text-lg text-black font-normal">
+                    {member.bio}
+                  </p>
+                </div>
+              </div>
+            ))}
           </div>
-        ))}
+        </div>
+
+        <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl text-center pt-10">
+          Lab Alumni
+        </h1>
+        <div className="w-full border-t mt-10 pt-6 items-center"></div>
+        <div className="container mx-auto px-4 lg:px-4">
+          <div className="flex justify-center flex-wrap">
+            {alumniTeamMembers.map((member, index) => (
+              <div
+                key={index}
+                className="pb-16 flex flex-col items-center pt-4 w-full md:flex-row md:items-start"
+              >
+                <div className="w-full md:w-1/4">
+                  <img
+                    className="rounded-lg w-full h-auto shadow-md"
+                    src={member.image}
+                    alt={member.name}
+                  />
+                </div>
+                <div className="w-full md:w-3/4 px-4 pt-2">
+                  <p className="text-2xl md:text-4xl text-black font-bold mb-2">
+                    {member.name}
+                  </p>
+                  <p className="text-lg md:text-3xl text-black italic mb-2">
+                    {member.job}
+                  </p>
+                  <p className="text-base md:text-lg text-black font-normal">
+                    {member.bio}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
 
         {/* Cal Poly logo */}
         <div class="border-t mt-12 pt-12 px-4 lg:px-0 items-center">
@@ -91,15 +132,18 @@ const teamMembers = [
     bio: "I'm an undergrad student majoring in wildlife management and conservation and minoring in environmental ethics. Currently, I'm preparing to work on my senior project, then I'll continue my education in grad school. I fell in love with birds when I took an Ornithology course and went birding for the first time. Working my first field technician job in Oregon solidified that I want to further study our feathered friends.",
     image: "https://i.ibb.co/ftPLDPD/kianaedit.jpg",
   },
+];
+
+const alumniTeamMembers = [
   {
     name: "Marina Osechinskaya",
-    job: "Lab alumni",
+    job: "Honors undergraduate student",
     bio: "I graduated in December of 2023 with a B.S. degree in Wildlife Management and Conservation. For my honors thesis project I analyzed the predation rates of western snowy plover nests in Recovery Unit 2 (Del Norte, Humboldt, and Mendocino counties) by mesopredators such as skunks and coyotes. I also spent a considerable amount of time working on a Butterfly Conservation Program through Sequoia Park Zoo with endangered local butterfly species. I enjoy many outdoor activities such as birding, biking, hiking, and camping.",
     image: "https://i.ibb.co/58XhcsK/marinaedit.png",
   },
   {
     name: "Jessica Angulo",
-    job: "Lab alumni",
+    job: "Honors undergraduate student",
     bio: "I was able to work on my REU/Senior Thesis project with the Avian Ecology lab. My project looked at understanding microclimate factors influencing changes in bird biomass and species richness during the breeding season in the HJ Andrews Experimental forest. The degree to which microclimate influences bird biomass and species richness remains largely unexplored which piqued my interest in this project. I was able to gain, feedback, advice, and valuable insights via Frank and grad students on my project. I was also able to learn more about what it takes to do a scientific project by listening to lab discussions about models, presentations, and articles.",
     image: "https://i.ibb.co/PjX1n6q/jessicaedit.png",
   },
