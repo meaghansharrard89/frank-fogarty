@@ -97,11 +97,11 @@ function Contact() {
               placeholder="Leave a comment..."
             ></textarea>
           </div>
-          <input
+          {/* <input
             type="hidden"
             name="redirect"
             value="https://web3forms.com/success"
-          />
+          /> */}
           <button
             type="submit"
             class="py-3 px-5 text-lg font-medium text-center text-white rounded-lg bg-greenAccent sm:w-fit hover:bg-darkGreenAccent focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-darkGreenAccent dark:hover:bg-darkGreenAccent dark:focus:ring-primary-800"
