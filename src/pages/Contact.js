@@ -8,20 +8,12 @@ function Contact() {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "5d964c3c-46c4-4728-862d-2a90af06adda");
+    formData.append("access_key", "061bfc41-b219-432a-9888-1f53e5784a10");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
       body: formData,
     });
-
-    // const response = await fetch("https://api.web3forms.com/submit", {
-    //   method: "POST",
-    //   headers: {
-    //     "Content-Type": "application/json",
-    //   },
-    //   body: JSON.stringify(data),
-    // });
 
     const data = await response.json();
 
@@ -48,7 +40,7 @@ function Contact() {
           <input
             type="hidden"
             name="access_key"
-            value="5d964c3c-46c4-4728-862d-2a90af06adda"
+            value="061bfc41-b219-432a-9888-1f53e5784a10"
           />
           <div>
             <label
@@ -97,11 +89,6 @@ function Contact() {
               placeholder="Leave a comment..."
             ></textarea>
           </div>
-          {/* <input
-            type="hidden"
-            name="redirect"
-            value="https://web3forms.com/success"
-          /> */}
           <button
             type="submit"
             class="py-3 px-5 text-lg font-medium text-center text-white rounded-lg bg-greenAccent sm:w-fit hover:bg-darkGreenAccent focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-darkGreenAccent dark:hover:bg-darkGreenAccent dark:focus:ring-primary-800"

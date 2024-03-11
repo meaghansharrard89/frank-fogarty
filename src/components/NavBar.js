@@ -91,7 +91,7 @@ function NavBar() {
         </div>
 
         <div className="sm:hidden" id="mobile-menu">
-          <div className="space-y-1 pb-3 text-center">
+          <div className="space-y-1 pb-4 text-center">
             <NavLink
               exact
               to="/frank-fogarty"
@@ -147,7 +147,7 @@ function NavBar() {
                 currentPage === "/contact"
                   ? "bg-darkGreenAccent text-white"
                   : "text-gray-300 hover:bg-darkGreenAccent hover:text-white"
-              } rounded-md px-3 py-2 text-m font-medium`}
+              } block rounded-md px-3 py-2 text-m font-medium`}
               onClick={() => setCurrentPage("/contact")}
             >
               CONTACT
