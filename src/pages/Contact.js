@@ -8,7 +8,7 @@ function Contact() {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("apikey", "5d964c3c-46c4-4728-862d-2a90af06adda");
+    formData.append("access_key", "5d964c3c-46c4-4728-862d-2a90af06adda");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -36,15 +36,10 @@ function Contact() {
           Want to collaborate on a project? Have any questions. Contact us
           below.
         </p>
-        <form
-          class="space-y-8"
-          action="https://api.web3forms.com/submit"
-          method="POST"
-          onSubmit={onSubmit}
-        >
+        <form class="space-y-8" onSubmit={onSubmit}>
           <input
             type="hidden"
-            name="apikey"
+            name="access_key"
             value="5d964c3c-46c4-4728-862d-2a90af06adda"
           />
           <div>
