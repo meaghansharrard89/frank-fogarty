@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/frank-fogarty/static/css/main.45842fcf.css",
-    "main.js": "/frank-fogarty/static/js/main.6e495265.js",
+    "main.css": "/frank-fogarty/static/css/main.bfeff463.css",
+    "main.js": "/frank-fogarty/static/js/main.e5539c87.js",
     "index.html": "/frank-fogarty/index.html",
-    "main.45842fcf.css.map": "/frank-fogarty/static/css/main.45842fcf.css.map",
-    "main.6e495265.js.map": "/frank-fogarty/static/js/main.6e495265.js.map"
+    "main.bfeff463.css.map": "/frank-fogarty/static/css/main.bfeff463.css.map",
+    "main.e5539c87.js.map": "/frank-fogarty/static/js/main.e5539c87.js.map"
   },
   "entrypoints": [
-    "static/css/main.45842fcf.css",
-    "static/js/main.6e495265.js"
+    "static/css/main.bfeff463.css",
+    "static/js/main.e5539c87.js"
   ]
 }
