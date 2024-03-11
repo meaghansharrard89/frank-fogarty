@@ -7,9 +7,9 @@ function NavBar() {
 
   return (
     <>
-      <nav className="bg-greenAccent">
+      <nav className="bg-greenAccent navbar">
         <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-          <div className="relative flex h-16 items-center justify-between">
+          <div className="relative flex items-center justify-between">
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
               <button
                 type="button"
@@ -18,8 +18,8 @@ function NavBar() {
                 aria-expanded="false"
               ></button>
             </div>
-            <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-              <div className="flex flex-shrink-0 items-center"></div>
+            <div className="flex items-center justify-center sm:justify-start">
+              <div className="flex-shrink-0 items-center"></div>
               <div className="hidden sm:ml-6 sm:block">
                 <div className="flex space-x-4">
                   <NavLink
@@ -66,6 +66,18 @@ function NavBar() {
                     onClick={() => setCurrentPage("/research")}
                   >
                     RESEARCH
+                  </NavLink>
+                  <NavLink
+                    exact
+                    to="/contact"
+                    className={`${
+                      currentPage === "/contact"
+                        ? "bg-darkGreenAccent text-white"
+                        : "text-gray-300 hover:bg-darkGreenAccent hover:text-white"
+                    } rounded-md px-3 py-2 text-m font-medium`}
+                    onClick={() => setCurrentPage("/contact")}
+                  >
+                    CONTACT
                   </NavLink>
                 </div>
               </div>
@@ -127,6 +139,18 @@ function NavBar() {
               onClick={() => setCurrentPage("/research")}
             >
               RESEARCH
+            </NavLink>
+            <NavLink
+              exact
+              to="/contact"
+              className={`${
+                currentPage === "/contact"
+                  ? "bg-darkGreenAccent text-white"
+                  : "text-gray-300 hover:bg-darkGreenAccent hover:text-white"
+              } rounded-md px-3 py-2 text-m font-medium`}
+              onClick={() => setCurrentPage("/contact")}
+            >
+              CONTACT
             </NavLink>
           </div>
         </div>

@@ -5,6 +5,7 @@ import Publication from "../pages/Publication";
 import Team from "../pages/Team";
 import Research from "../pages/Research";
 import NavBar from "./NavBar";
+import Contact from "../pages/Contact";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
         </Route>
         <Route exact path="/research">
           <Research />
+        </Route>
+        <Route exact path="/contact">
+          <Contact />
         </Route>
       </Switch>
     </Router>
