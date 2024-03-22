@@ -3,14 +3,14 @@ function Home() {
     <>
       <div class="image-container">
         <img
-          src="https://i.ibb.co/r4wJKxG/redwoods.jpg"
+          src="https://i.ibb.co/1mrD1Qd/redwood.jpg"
           class="rounded-md pt-8"
           alt="Redwoods"
         />
       </div>
       <div class="fade-in">
         <h1 class="py-12 text-gray-800 text-6xl font-bold mb-2 leading-tight text-center mx-4 sm:mx-auto">
-          Applied Avian Ecology Lab
+          Fogarty Applied Avian Ecology Lab
         </h1>
 
         <div class="w-full border-t border-gray-200"></div>
@@ -20,22 +20,40 @@ function Home() {
               <div className="pt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6">
                 {/* Left grid item for text */}
                 <div class="pl-12 justify-center">
-                  <h2 className="text-gray-800 text-4xl font-bold mt-2 mb-2 leading-tight">
-                    Welcome to Feathered Insights: Where Science Takes Flight!
-                  </h2>
-                  <br />
-                  <p className="text-gray-800 text-3xl mt-2 mb-2 leading-tight">
-                    Nestled in the heart of biodiversity research, our applied
-                    avian ecology lab is a haven for bird enthusiasts and
-                    conservationists alike. With cutting-edge technology and a
-                    passion for preserving avian habitats, we soar to new
-                    heights in understanding and protecting our feathered
-                    friends. Join us as we spread our wings and dive deep into
-                    the fascinating world of avian ecology!
+                  <p className="text-gray-800 text-2xl mt-2 mb-2 leading-tight">
+                    Managing wildlife populations in a rapidly changing world is
+                    among the most pressing issues for wildlife biologists. Bird
+                    communities are an excellent system for addressing these
+                    types of questions, given their high species richness and
+                    ease of detection.
+                    <br />
+                    <br />
+                    In the Fogarty Applied Avian Ecology Lab, we address
+                    pressing management questions for both individual bird
+                    species and communities. We consider the effects of
+                    potential disturbances (e.g., climate change, wildfire,
+                    habitat fragmentation), restoration activities, and direct
+                    management on these populations of interest. We collaborate
+                    with a diverse group of colleagues from academia, state and
+                    federal agencies (e.g., USFWS, Oregon Department of Fish and
+                    Wildlife), and non-governmental organizations (e.g., Klamath
+                    Bird Observatory, Institute for Bird Populations), and
+                    actively engage undergraduate and graduate students in our
+                    work.
+                    <br />
+                    <br />
+                    Important first steps in understanding complex natural
+                    systems are characterizing the types of data that can be
+                    generated about them and the inferences that can and cannot
+                    be made on the basis of those data. We combine expertise in
+                    the field ecology of birds with robust quantitative methods
+                    that allow us to work with types of messy, imperfect data
+                    generated from field studies to produce results that are
+                    rigorous, realistic, and applicable to management.
                   </p>
                 </div>
                 {/* Right grid item for image */}
-                <div className="lg:pl-120 md:pl-60 py-8 sm:py-6 px-6 items-center">
+                <div className="lg:pl-100 md:pl-40 py-8 sm:py-6 px-6 items-center">
                   <img
                     src="https://i.ibb.co/Qdx6npX/logo.png"
                     alt="Logo"
