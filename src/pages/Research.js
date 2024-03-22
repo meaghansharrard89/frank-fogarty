@@ -47,9 +47,9 @@ function Research() {
           on Snowy Plover nests.
         </>
       ),
-      imageUrl: "https://i.ibb.co/P6tyQLt/20230517-142211.jpg",
-      imageAlt: "trees",
-      descriptionOne: "Photo credit: Aidan Healey ",
+      imageUrl: "https://i.ibb.co/x8n22Z2/raven-branch.jpg",
+      imageAlt: "raven",
+      // descriptionOne: "",
     },
     {
       title: "Bird communities in timber harvest retention",
@@ -69,9 +69,9 @@ function Research() {
           strategies on bird communities in Oregon and Washington.
         </>
       ),
-      imageUrl: "https://i.ibb.co/x8n22Z2/raven-branch.jpg",
+      imageUrl: "https://i.ibb.co/P6tyQLt/20230517-142211.jpg",
       imageAlt: "trees",
-      // descriptionOne: "Photo credit: Aidan Healey ",
+      descriptionOne: "Photo credit: Aidan Healey",
     },
   ];
   return (
