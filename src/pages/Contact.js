@@ -28,10 +28,18 @@ function Contact() {
 
   return (
     <section class="bg-white dark:bg-gray-900 fade-in">
-      <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
+      {/* <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md"> */}
+      {/* <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
           Contact Us
-        </h2>
+        </h2> */}
+      <div className="text-center">
+        <h1 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl pt-10">
+          Contact Us
+        </h1>
+      </div>
+      <div class="w-full border-t mt-12 pt-6 lg:px-0 items-center"></div>
+
+      <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
         <form class="space-y-8" onSubmit={onSubmit}>
           <input
             type="hidden"
@@ -41,7 +49,7 @@ function Contact() {
           <div>
             <label
               for="email"
-              class="block mb-2 text-lg font-medium text-gray-900 dark:text-gray-300"
+              class="block text-lg font-medium text-gray-900 dark:text-gray-300"
             >
               Your email
             </label>

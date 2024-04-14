@@ -6,6 +6,15 @@ function Team() {
           Current Lab Members
         </h1>
         <div className="w-full border-t mt-10 pt-6 items-center"></div>
+
+        <div class="mt-6 mb-14 px-4 lg:px-0 items-center">
+          <img
+            src="https://i.ibb.co/CWXKW9q/editedlabimage.jpg"
+            alt="Team"
+            class="mx-auto rounded-md"
+          />
+        </div>
+
         <div className="container mx-auto px-4 lg:px-4">
           <div className="flex justify-center flex-wrap">
             {teamMembers.map((member, index) => (
