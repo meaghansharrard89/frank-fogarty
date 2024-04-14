@@ -11,9 +11,9 @@ function Home() {
       <div class="fade-in">
         <div class="mt-8 px-4 lg:px-0 items-center">
           <img
-            src="https://i.ibb.co/Qdx6npX/logo.png"
+            src="https://i.ibb.co/CWXKW9q/editedlabimage.jpg"
             alt="Logo"
-            class="mx-auto"
+            class="mx-auto rounded-md"
           />
         </div>
         <h1 class="py-12 text-gray-800 text-6xl font-bold mb-2 leading-tight text-center mx-4 sm:mx-auto">
@@ -24,51 +24,52 @@ function Home() {
         <main class="mt-12 flex justify-center">
           <div class="mb-4 lg:mb-0 p-4 lg:p-0 md:w-4/5 relative rounded block">
             <div className="flex">
-              {/* <div className="pt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6"> */}
-              {/* Left grid item for text */}
-              <div class="pl-12 justify-center">
-                <p className="text-gray-800 text-2xl mt-2 mb-2 leading-tight">
-                  Managing wildlife populations in a rapidly changing world is
-                  among the most pressing issues for wildlife biologists. Bird
-                  communities are an excellent system for addressing these types
-                  of questions, given their high species richness and ease of
-                  detection.
-                  <br />
-                  <br />
-                  In the Fogarty Applied Avian Ecology Lab, we address pressing
-                  management questions for both individual bird species and
-                  communities. We consider the effects of potential disturbances
-                  (e.g., climate change, wildfire, habitat fragmentation),
-                  restoration activities, and direct management on these
-                  populations of interest. We collaborate with a diverse group
-                  of colleagues from academia, state and federal agencies (e.g.,
-                  USFWS, Oregon Department of Fish and Wildlife), and
-                  non-governmental organizations (e.g., Klamath Bird
-                  Observatory, Institute for Bird Populations), and actively
-                  engage undergraduate and graduate students in our work.
-                  <br />
-                  <br />
-                  Important first steps in understanding complex natural systems
-                  are characterizing the types of data that can be generated
-                  about them and the inferences that can and cannot be made on
-                  the basis of those data. We combine expertise in the field
-                  ecology of birds with robust quantitative methods that allow
-                  us to work with types of messy, imperfect data generated from
-                  field studies to produce results that are rigorous, realistic,
-                  and applicable to management.
-                </p>
-              </div>
-              {/* Right grid item for image */}
-              {/* <div className="lg:pl-100 md:pl-40 py-8 sm:py-6 px-6 items-center">
+              <div className="pt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6">
+                {/* Left grid item for text */}
+                <div class="pl-12 justify-center">
+                  <p className="text-gray-800 text-2xl mt-2 mb-2 leading-tight">
+                    Managing wildlife populations in a rapidly changing world is
+                    among the most pressing issues for wildlife biologists. Bird
+                    communities are an excellent system for addressing these
+                    types of questions, given their high species richness and
+                    ease of detection.
+                    <br />
+                    <br />
+                    In the Fogarty Applied Avian Ecology Lab, we address
+                    pressing management questions for both individual bird
+                    species and communities. We consider the effects of
+                    potential disturbances (e.g., climate change, wildfire,
+                    habitat fragmentation), restoration activities, and direct
+                    management on these populations of interest. We collaborate
+                    with a diverse group of colleagues from academia, state and
+                    federal agencies (e.g., USFWS, Oregon Department of Fish and
+                    Wildlife), and non-governmental organizations (e.g., Klamath
+                    Bird Observatory, Institute for Bird Populations), and
+                    actively engage undergraduate and graduate students in our
+                    work.
+                    <br />
+                    <br />
+                    Important first steps in understanding complex natural
+                    systems are characterizing the types of data that can be
+                    generated about them and the inferences that can and cannot
+                    be made on the basis of those data. We combine expertise in
+                    the field ecology of birds with robust quantitative methods
+                    that allow us to work with types of messy, imperfect data
+                    generated from field studies to produce results that are
+                    rigorous, realistic, and applicable to management.
+                  </p>
+                </div>
+                {/* Right grid item for image */}
+                <div className="lg:pl-100 md:pl-40 py-8 sm:py-6 px-6 items-center">
                   <img
                     src="https://i.ibb.co/Qdx6npX/logo.png"
                     alt="Logo"
                     class="responsive-image"
                   />
-                </div> */}
+                </div>
+              </div>
             </div>
           </div>
-          {/* </div> */}
         </main>
 
         {/* Cal Poly logo */}
