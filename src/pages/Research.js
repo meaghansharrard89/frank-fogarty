@@ -9,7 +9,7 @@ function Research() {
           where they are listed as a sensitive species. Additionally, many
           populations have altered their migratory behavior over the last
           century for reasons not entirely understood. Lewis’s Woodpeckers are
-          also strongly associated with burned areas during the breeding system,
+          also strongly associated with burned areas during the breeding season,
           suggesting that changing fire regimes and management will have impacts
           on this species. Improving our understanding of the habitat
           requirements of Lewis’s Woodpecker, including how changes in
