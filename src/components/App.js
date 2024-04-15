@@ -12,7 +12,7 @@ function App() {
     <Router>
       <NavBar />
       <Switch>
-        <Route exact path="/frank-fogarty">
+        <Route exact path="/">
           <Home />
         </Route>
         <Route exact path="/publication">
