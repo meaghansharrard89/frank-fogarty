@@ -2,10 +2,10 @@ function Team() {
   return (
     <>
       <div className="fade-in">
-        <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl text-center pt-10">
+        <h1 className="lg:py-6 mb-4 mt-4 text-gray-800 text-3xl lg:text-5xl font-bold leading-tight text-center mx-4 sm:mx-auto">
           Current Lab Members
         </h1>
-        <div className="w-full border-t mt-10 pt-6 items-center"></div>
+        <div className="w-full border-t lg:px-0 items-center mb-6"></div>
 
         <div class="mt-6 mb-14 px-4 lg:px-0 items-center">
           <img
@@ -20,7 +20,7 @@ function Team() {
             {teamMembers.map((member, index) => (
               <div
                 key={index}
-                className="pb-16 flex flex-col items-center pt-4 w-full mx-auto md:flex-row md:items-start"
+                className="pb-8 flex flex-col items-center pt-4 w-full mx-auto md:flex-row md:items-start"
               >
                 <div className="w-full md:w-1/4">
                   <img
@@ -30,10 +30,10 @@ function Team() {
                   />
                 </div>
                 <div className="w-full md:w-3/4 px-4 pt-2">
-                  <p className="text-2xl md:text-4xl text-black font-bold mb-2">
+                  <p className="text-xl md:text-3xl text-black font-bold mb-2">
                     {member.name}
                   </p>
-                  <p className="text-lg md:text-3xl text-black italic mb-2">
+                  <p className="text-lg md:text-2xl text-black italic mb-2">
                     {member.job}
                   </p>
                   <p className="text-base md:text-lg text-black font-normal">
@@ -45,16 +45,16 @@ function Team() {
           </div>
         </div>
 
-        <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl text-center pt-10">
+        <h1 className="lg:py-6 mb-4 mt-4 text-gray-800 text-3xl lg:text-5xl font-bold leading-tight text-center mx-4 sm:mx-auto">
           Lab Alumni
         </h1>
-        <div className="w-full border-t mt-10 pt-6 items-center"></div>
+        <div className="w-full border-t lg:px-0 items-center pb-6"></div>
         <div className="container mx-auto px-4 lg:px-4">
           <div className="flex justify-center flex-wrap">
             {alumniTeamMembers.map((member, index) => (
               <div
                 key={index}
-                className="pb-16 flex flex-col items-center pt-4 w-full md:flex-row md:items-start"
+                className="pb-8 flex flex-col items-center w-full md:flex-row md:items-start"
               >
                 <div className="w-full md:w-1/4">
                   <img
@@ -63,11 +63,11 @@ function Team() {
                     alt={member.name}
                   />
                 </div>
-                <div className="w-full md:w-3/4 px-4 pt-2">
-                  <p className="text-2xl md:text-4xl text-black font-bold mb-2">
+                <div className="w-full md:w-3/4 px-4 pt-4 pb-4">
+                  <p className="text-xl md:text-3xl text-black font-bold mb-2">
                     {member.name}
                   </p>
-                  <p className="text-lg md:text-3xl text-black italic mb-2">
+                  <p className="text-lg md:text-2xl text-black italic mb-2">
                     {member.job}
                   </p>
                   <p className="text-base md:text-lg text-black font-normal">
@@ -80,7 +80,7 @@ function Team() {
         </div>
 
         {/* Cal Poly logo */}
-        <div class="border-t mt-12 pt-12 px-4 lg:px-0 items-center">
+        <div class="border-t mt-2 pt-8 px-4 lg:px-0 items-center">
           <img
             src="https://i.ibb.co/kgHm5xJ/logo-for-signature.png"
             class="mx-auto"
@@ -88,15 +88,15 @@ function Team() {
         </div>
 
         {/* <!-- footer --> */}
-        <footer class="border-t mt-12 pt-6 px-4 lg:px-0 bg-greenAccent text-gray-300">
-          <div class="flex flex-wrap">
-            <div class="w-full lg:w-2/5"></div>
+        <footer className="border-t mt-12 pt-6 px-4 lg:px-0 lg:py-2 bg-greenAccent text-gray-300">
+          <div className="flex flex-wrap">
+            <div className="w-full lg:w-2/5"></div>
 
-            <div class="w-full mt-6 lg:mt-0 md:w-1/2 lg:w-1/5 text-center pb-6">
-              Meaghan Sharrard 2024
+            <div className="w-full mt-2 md:w-1/2 lg:w-1/5 text-center pb-2 text-sm">
+              @ Meaghan Sharrard 2024
             </div>
 
-            <div class="w-full mt-6 lg:mt-0 md:w-1/2 lg:w-1/5"></div>
+            <div className="w-full mt-6 lg:mt-0 md:w-1/2 lg:w-1/5"></div>
           </div>
         </footer>
       </div>

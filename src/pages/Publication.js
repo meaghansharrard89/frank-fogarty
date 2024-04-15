@@ -183,35 +183,35 @@ function Publication() {
 
   return (
     <>
-      <div className="bg-white py-12 fade-in">
-        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl text-center">
+      <div className="fade-in">
+        <h2 className="lg:py-6 mt-4 text-gray-800 text-3xl lg:text-5xl font-bold mb-4 leading-tight text-center mx-4 sm:mx-auto">
           Publications
         </h2>
-        <div className="w-full border-t mt-8 lg:px-0 items-center"></div>
+        <div className="w-full border-t lg:px-0 items-center"></div>
         <div className="lg:px-8">
           <div className="lg:mx-0 text-center w-full"></div>
           <div className="flex flex-col items-center">
             {articles.map((article, index) => (
               <div
                 key={index}
-                className="mt-8 pt-2 px-4 lg:px-0 items-center w-full max-w-3xl"
+                className="px-4 lg:px-0 items-center w-full max-w-3xl"
               >
                 <article className="flex flex-col items-start justify-between">
                   <div className="flex items-center gap-x-4 text-s"></div>
                   <div className="group relative">
                     <a href={article.url} target="_blank">
-                      <h3 className="pt-6 mt-3 text-2xl font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+                      <h3 className="pt-6 mt-3 text-xl font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
                         {article.title} ({article.year})
                       </h3>
                     </a>
                   </div>
-                  <div className="relative mt-8 flex items-center gap-x-4">
+                  <div className="relative mt-6 flex items-center gap-x-2">
                     <div className="leading-6">
                       <p className="font-semibold text-gray-900 text-lg">
                         {article.authors}
                       </p>
                       <br />
-                      <p className="text-gray-600 text-xl">
+                      <p className="text-gray-600 text-lg">
                         {article.publicationInfo}
                       </p>
                     </div>
@@ -221,12 +221,12 @@ function Publication() {
                     <a
                       href={article.citedUrl}
                       target="_blank"
-                      className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
+                      className="relative z-10 rounded-full bg-gray-50 px-3 font-medium text-gray-600 hover:bg-gray-100"
                     >
                       {article.citation}
                     </a>
                   </div>
-                  <div className="w-full border-t mt-8 lg:px-0 items-center"></div>
+                  <div className="w-full border-t mt-4 lg:px-0 items-center"></div>
                 </article>
               </div>
             ))}
@@ -235,7 +235,7 @@ function Publication() {
       </div>
 
       {/* Cal Poly logo */}
-      <div className="border-t mt-12 pt-12 px-4 lg:px-0 items-center">
+      <div className="mt-4 pt-4 px-4 lg:px-0 items-center">
         <img
           src="https://i.ibb.co/kgHm5xJ/logo-for-signature.png"
           className="mx-auto"
@@ -244,12 +244,12 @@ function Publication() {
       </div>
 
       {/* <!-- footer --> */}
-      <footer className="border-t mt-12 pt-6 px-4 lg:px-0 bg-greenAccent text-gray-300">
+      <footer className="border-t mt-12 pt-6 px-4 lg:px-0 lg:py-2 bg-greenAccent text-gray-300">
         <div className="flex flex-wrap">
           <div className="w-full lg:w-2/5"></div>
 
-          <div className="w-full mt-6 lg:mt-0 md:w-1/2 lg:w-1/5 text-center pb-6">
-            Meaghan Sharrard 2024
+          <div className="w-full mt-2 md:w-1/2 lg:w-1/5 text-center pb-2 text-sm">
+            @ Meaghan Sharrard 2024
           </div>
 
           <div className="w-full mt-6 lg:mt-0 md:w-1/2 lg:w-1/5"></div>
