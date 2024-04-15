@@ -96,11 +96,11 @@ function NavBar() {
               exact
               to="/"
               className={`${
-                currentPage === "/"
+                currentPage === ""
                   ? "bg-darkGreenAccent text-white"
                   : "text-gray-300 hover:bg-darkGreenAccent hover:text-white"
               } block rounded-md px-3 py-2 text-base font-medium`}
-              onClick={() => setCurrentPage("/")}
+              onClick={() => setCurrentPage("")}
             >
               HOME
             </NavLink>
