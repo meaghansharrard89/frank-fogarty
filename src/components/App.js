@@ -1,5 +1,10 @@
-import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import React, { useEffect } from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 import Home from "../pages/Home";
 import Publication from "../pages/Publication";
 import Team from "../pages/Team";
@@ -8,6 +13,13 @@ import NavBar from "./NavBar";
 import Contact from "../pages/Contact";
 
 function App() {
+  useEffect(() => {
+    const currentPage = localStorage.getItem("currentPage");
+    if (currentPage && currentPage !== window.location.pathname) {
+      window.location.href = currentPage; // Redirect to the stored page
+    }
+  }, []);
+
   return (
     <Router>
       <NavBar />
@@ -27,6 +39,8 @@ function App() {
         <Route exact path="/contact">
           <Contact />
         </Route>
+        {/* Redirect to the homepage for any other route */}
+        <Redirect to="/" />
       </Switch>
     </Router>
   );

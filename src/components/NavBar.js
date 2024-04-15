@@ -1,9 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 
 function NavBar() {
   const location = useLocation(); // Get current location
   const [currentPage, setCurrentPage] = useState(location.pathname); // Set initial current page
+
+  useEffect(() => {
+    setCurrentPage(location.pathname);
+    localStorage.setItem("currentPage", location.pathname); // Store current page in localStorage
+  }, [location.pathname]);
 
   return (
     <>
