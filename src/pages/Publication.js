@@ -217,15 +217,6 @@ function Publication() {
                     </div>
                   </div>
                   <br />
-                  <div className="pb-6">
-                    <a
-                      href={article.citedUrl}
-                      target="_blank"
-                      className="relative z-10 rounded-full bg-gray-50 px-3 font-medium text-gray-600 hover:bg-gray-100"
-                    >
-                      {article.citation}
-                    </a>
-                  </div>
                   <div className="w-full border-t mt-4 lg:px-0 items-center"></div>
                 </article>
               </div>
