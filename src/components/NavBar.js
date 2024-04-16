@@ -37,11 +37,11 @@ function NavBar() {
                   <NavLink
                     to="/publications"
                     className={`${
-                      currentPage === "/publication"
+                      currentPage === "/publications"
                         ? "bg-darkGreenAccent text-white"
                         : "text-gray-300 hover:bg-darkGreenAccent hover:text-white"
                     } rounded-md px-3 py-2 text-m font-medium`}
-                    onClick={() => setCurrentPage("/publication")}
+                    onClick={() => setCurrentPage("/publications")}
                   >
                     PUBLICATIONS
                   </NavLink>
@@ -106,13 +106,13 @@ function NavBar() {
             </NavLink>
             <NavLink
               exact
-              to="/publication"
+              to="/publications"
               className={`${
                 currentPage === "/publications"
                   ? "bg-darkGreenAccent text-white"
                   : "text-gray-300 hover:bg-darkGreenAccent hover:text-white"
               } block rounded-md px-3 py-2 text-base font-medium`}
-              onClick={() => setCurrentPage("/publication")}
+              onClick={() => setCurrentPage("/publications")}
             >
               PUBLICATIONS
             </NavLink>
