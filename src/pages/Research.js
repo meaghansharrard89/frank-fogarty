@@ -87,7 +87,7 @@ function Research() {
         {research.map((item, index) => (
           <div
             key={index}
-            class="mb-6 mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-2 px-4 lg:max-w-7xl lg:grid-cols-2 lg:px-8"
+            class="mb-6 mx-auto grid max-w-2xl grid-cols-1 text-center items-center gap-x-8 gap-y-2 px-4 lg:max-w-7xl lg:grid-cols-2 lg:px-8"
           >
             <div>
               <h2 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-2xl">

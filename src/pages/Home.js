@@ -17,8 +17,8 @@ function Home() {
 
         <main className="mt-8 flex justify-center">
           <div className="lg:mb-0 lg:p-0 md:w-4/5 lg:w-5/6 xl:w-3/4 relative rounded block">
-            <div className="flex justify-center lg:justify-start">
-              <p className="text-gray-800 text-m lg:text-2xl leading-tight text-center px-4 lg:px-0 xl:px-0 lg:text-center lg:mb-2 lg:mt-2 xl:mb-2 xl:mt-2">
+            <div className="flex lg:justify-start">
+              <p className="text-gray-800 text-m lg:text-lg leading-tight px-4 lg:px-0 xl:px-0 lg:text-center lg:mb-2 lg:mt-2 xl:mb-2 xl:mt-2">
                 Managing wildlife populations in a rapidly changing world is
                 among the most pressing issues for wildlife biologists. Bird
                 communities are an excellent system for addressing these types
