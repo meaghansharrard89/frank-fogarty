@@ -123,6 +123,12 @@ const teamMembers = [
     bio: "Hiya! My name is Cameron! I grew up in Denver, Colorado, and completed my bachelor's in Conservation Biology from SUNY College of Environmental Science & Forestry. Since graduating, I have been lucky to work as a field scientist and environmental educator in some of the most beautiful places around the world like Mongolia, Yellowstone, the Northern Mariana Islands, the Sierra Nevada, and the White Mountains. I have worked with many different taxa, but birds stole my heart after my first field job studying red-headed woodpeckers. I am very excited to return to the wild world of woodpeckers with Drs. Frank Fogarty and Ho Yi Wan studying Lewis’s Woodpecker migration and behavioral ecology in central Oregon.",
     image: "https://i.ibb.co/BnLs2WK/cameronedit.jpg",
   },
+  {
+    name: "Samantha Webb",
+    job: "M.S. student",
+    bio: "Hello! I grew up in Portland, Oregon, and received my B.S. in Biology from Portland State University in 2020. Since then, I’ve lived across the country pursuing various bird-related field jobs including working with Golden-cheeked Warblers in southern Texas, Nelson’s Sparrows in Maine, and migratory birds on Southeast Farallon Island. After working several years for Klamath Bird Observatory in southern Oregon I developed an interest in understanding how oak obligate breeding birds respond to restoration efforts in the Rogue Valley. I am interested in the reproductive success, productivity, and density of White-breasted Nuthatch, Western Bluebird, Oak Titmouse, and Ash-throated Flycatcher in restored and unrestored oak woodlands and the role of restoration in oak obligate breeding birds population dynamics.",
+    image: "https://i.ibb.co/xSbVsGT6/samedit.jpg",
+  },
 ];
 
 const alumniTeamMembers = [
