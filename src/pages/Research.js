@@ -73,6 +73,35 @@ function Research() {
       imageAlt: "trees",
       descriptionOne: "Photo credit: Aidan Healey",
     },
+    {
+      title: "Oak obligate breeding birds in restored oak woodlands",
+      paragraph: (
+        <>
+          Oak habitats are among the richest habitats for wildlife in Oregon,
+          but have undergone an estimated loss of 90% from historic
+          distributions since the 1800s. Within the Pacific Northwest, nearly
+          half of the 49 bird species tightly associated with oak-prairie
+          habitats have experienced extirpations, range contractions, and
+          regional population declines. Oak habitats have been listed as an
+          Oregon Conservation Strategy Habitat by ODFW and efforts have
+          increased to restored oak woodlands across much of Oregon. In the
+          light of restoration efforts, further research is needed to assess the
+          quality of restored oak habitat for avian species, and to understand
+          the drivers behind regional avian population trends.
+          <br></br>
+          <br></br>
+          The Applied Avian Ecology Lab is partnered with Klamath Bird
+          Observatory to monitor reproductive outputs for oak obligate breeding
+          birds in restored and unrestored California black oak and Oregon white
+          oak woodlands within the Rogue Basin of Oregon. This study will
+          provide essential information on avian responses to and the integrity
+          of oak woodlands created through disturbance-centered restoration
+          efforts in order to inform future management decisions.
+        </>
+      ),
+      imageUrl: "https://i.ibb.co/DPwKYtXr/Oak-Woodlands.png",
+      imageAlt: "oaktrees",
+    },
   ];
   return (
     <>
