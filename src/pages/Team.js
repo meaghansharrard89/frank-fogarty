@@ -129,6 +129,12 @@ const teamMembers = [
     bio: "Hello! I grew up in Portland, Oregon, and received my B.S. in Biology from Portland State University in 2020. Since then, I’ve lived across the country pursuing various bird-related field jobs including working with Golden-cheeked Warblers in southern Texas, Nelson’s Sparrows in Maine, and migratory birds on Southeast Farallon Island. After working several years for Klamath Bird Observatory in southern Oregon I developed an interest in understanding how oak obligate breeding birds respond to restoration efforts in the Rogue Valley. I am interested in the reproductive success, productivity, and density of White-breasted Nuthatch, Western Bluebird, Oak Titmouse, and Ash-throated Flycatcher in restored and unrestored oak woodlands and the role of restoration in oak obligate breeding birds population dynamics.",
     image: "https://i.ibb.co/xSbVsGT6/samedit.jpg",
   },
+  {
+    name: "Aidan Healey",
+    job: "M.S. student",
+    bio: "Aidan's research is focused on bird communities in managed forests across western Oregon and Washington, from data collection in the woods to building statistical models in the lab. Aidan aims to use these analyses to further illustrate both the effects of management actions on wildlife and how birds communities respond to disturbance, generally in managed forests where many successional stages and competing management interests are often in close geographic proximity. Outside of the lab, Aidan is drawn to bird vocalizations and enjoys spending early mornings in the mountains watching the sun rise while listening to the surrounding chorus of bird songs.",
+    image: "https://i.ibb.co/0RkHdP4C/DSCN4659-edit.jpg",
+  },
 ];
 
 const alumniTeamMembers = [
